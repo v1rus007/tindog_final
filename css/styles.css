@@ -1,0 +1,166 @@
+/* TITLE */
+#title {
+  background-color: #ff4c68;
+}
+
+h1 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.brand {
+  font-size: 3rem;
+}
+
+.head-note {
+  color: white;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+
+.dog-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+/* FEATURES */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.features-icon {
+  color: #ef8172;
+  margin: 1rem;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 3rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.feat-box {
+  text-align: center;
+  padding: 3%;
+}
+
+/* TESTIMONIALS */
+#testimonials {
+  color: #fff;
+  text-align: center;
+  background-color: #ff4c68;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* PRESS */
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* PRICING */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.price-card {
+  padding-top: 2rem;
+}
+
+/* CALL TO ACTION */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+  padding: 7% 15%;
+}
+
+.cta-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 3.5rem;
+}
+
+.foot-icon {
+  color: black;
+  margin: 20px 10px;
+}
+
+/* FOOTER */
+#footer {
+  text-align: center;
+}
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .dog-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
